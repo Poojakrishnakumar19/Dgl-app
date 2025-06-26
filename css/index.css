@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(
+    rgb(160, 210, 235),
+    rgb(208, 221, 250),
+    rgb(208, 189, 244),
+    rgb(132, 88, 179),
+    rgb(162, 128, 137)
+  );
+  font-family: sans-serif;
+}
+.banner {
+  background: url(../images/front1.jpeg);
+  background-size: cover;
+  color: white;
+  height: 450px;
+  object-fit: contain;
+}
+.banner-title {
+  font-size: 100px;
+}
+.banner-contents {
+  margin-left: 250px;
+  height: 150px;
+}
+header {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px 2px;
+}
+main {
+  max-width: 550px;
+  margin: auto;
+}
+.post {
+  background-color: rgb(118, 117, 218);
+  padding: 20px;
+  margin: 20px;
+  border-radius: 100px;
+}
+.post img {
+  display: block;
+  margin: 0 auto; 
+  height: 150px;
+}
+h2 {
+  text-align: center;
+  color: black;
+}
+a {
+  text-decoration: none;
+}
+footer {
+  background-color: #678192;
+  color: black;
+  padding: 10px;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+}
+@media (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+* 
+{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+body
+{
+ font-family: Arial, sans-serif;
+}
+.header
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #678192;
+  color: white;
+}
+.home-icon
+{
+  cursor: pointer;
+}
+        
+.post img {
+  display: block;
+  margin: 0 auto; /* Centers the image horizontally */
+  height: 150px;
+}

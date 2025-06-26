@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(
+    rgb(162, 128, 137),
+    rgb(132, 88, 179),
+    rgb(208, 189, 244),
+    rgb(132, 88, 179),
+    rgb(162, 128, 137)
+ );
+  font-family: sans-serif;
+}
+.banner {
+  background-size: cover;
+  color: white;
+}
+.banner-title {
+  font-size: 75px;
+  text-align: center;
+}
+
+header {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px 2px;
+}
+
+main {
+  max-width: 550px;
+  margin: auto;
+}
+.div {
+  display: inline-block;
+  justify-content: center;
+}
+.post {
+   background-color: rgb(118, 117, 218);
+  padding: 15px;
+  margin: 20px;
+  border-radius: 75px;
+}
+.post img {
+  display: block;
+  margin: 0 auto; 
+  height: 150px;
+}
+h2 {
+  text-align: center;
+}
+a {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+p {
+  text-align: center;
+}
+@media (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #678192;
+  color: white;
+}
+.home-icon {
+  cursor: pointer;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+.btn {
+  padding: 10px 10px;
+  text-decoration: none;
+  color: black;
+  border-radius: 5px;
+  background-color: white;
+}
